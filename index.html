@@ -1,33 +1,37 @@
 <html>
-<div class="container">
-  <h1 class="page-title">
-    Conversor de moedas
-  </h1>
-  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
-</div>
-<a href="https://alura.com.br/" target="_blank">
-  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-  <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
-</a>
+    <head>
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de moedas
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+          </div>
+          <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+          </a>
 
-<body>
-  <div class='converter'>
-    <h1>Conversor de moeda</h1>
-    <p>Insira um valor em reais:</p>
-    <input type='number' id='valor' name='valor'>
+        <link rel="stylesheet" href="css/styles.css">
 
-    <p>Selecione a moeda para conversão</p>
+    </head>
+    <body>
+    <div class='converter'>
+        <h1>Conversor de moeda</h1>
+        <p>Insira um valor em reais:</p>
+        <input type='number' id='valor' name='valor'>
 
-    <select id='moeda'>
-      <option value="USD">Dólar americano</option>
-      <option value="EUR">Euro</option>
-      <option value="ARS">Peso argentino</option>
-      <option value="BTC">Bitcoin</option>
-    </select>
+        <p>Selecione a moeda para conversão</p>
 
-    <button onclick='converter()'>Converter</button>
-    <p id='resultado'></p>
-  </div>
-</body>
+        <select id='moeda'>
+        <option value="USD">Dólar americano</option>
+        <option value="EUR">Euro</option>
+        <option value="ARS">Peso argentino</option>
+        <option value="BTC">Bitcoin</option>
+        </select>
+
+        <button onclick='converter()'>Converter</button>
+        <p id='resultado'></p>
+    </div>
+    </body>
 
 </html>
