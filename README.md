@@ -1,2 +1,2 @@
 # Conversor-de-moedas
- Projeto do dia 1 da imersão dev alura.
+Primeiro projeto da imersão dev, evento da alura. O primeiro projeto foi um simples conversor de moedas.
